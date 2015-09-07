@@ -1,0 +1,119 @@
+mkdir "_Original"; for file in *.ape; do name=$(echo $file | sed "s/\\.ape//g"); ffmpeg -i "$name".ape -acodec pcm_s16le "$name".wav; mv "$name".ape "_Original"; done
+
+mkdir "_Original"; for file in *.wav; do name=$(echo $file | sed "s/\\.wav//g"); ffmpeg -acodec dts -i "$name".wav -vn -sn -ac 2 -acodec pcm_s16le "$name"_.wav; mv "$name".wav "_Original"; done
+mkdir "_Original"; for file in *.dts; do name=$(echo $file | sed "s/\\.dts//g"); ffmpeg -acodec dts -i "$name".dts -vn -sn -ac 2 -acodec pcm_s16le "$name"_.wav; mv "$name".wav "_Original"; done
+mkdir "_Original"; for file in *.wav; do name=$(echo $file | sed "s/\\.wav//g"); ffmpeg -acodec dts -i "$name".wav -vn -sn -ac 2 -acodec alac "$name".m4a; mv "$name".wav "_Original"; done
+
+
+mkdir "_Original"; for file in *.wav; do name=$(echo $file | sed "s/\\.wav//g"); ffmpeg -i "$name".wav -acodec alac "$name".m4a; mv "$name".wav "_Original"; done
+mkdir "_Original"; for file in *.flac; do name=$(echo $file | sed "s/\\.flac//g"); ffmpeg -i "$name".flac -acodec alac "$name".m4a; mv "$name".flac "_Original"; done
+
+mkdir "_Original"; for file in *.ape; do name=$(echo $file | sed "s/\\.ape//g"); ffmpeg -i "$name".ape "$name".flac; ffmpeg -i "$name".flac -acodec alac "$name".m4a; mv "$name".flac "_Original";mv "$name".ape "_Original";done
+
+mkdir "_Original"; for file in *.dts; do name=$(echo $file | sed "s/\\.dts//g"); ffmpeg -acodec dts -i "$name".dts -vn -sn -ac 2 -acodec alac "$name".m4a; mv "$name".dts "_Original"; done
+
+mkdir "_Original"; for file in *.ogg; do name=$(echo $file | sed "s/\\.ogg//g");ffmpeg -i "$name".ogg "$name".wav; ffmpeg -i "$name".wav -acodec alac "$name".m4a; mv "$name".wav "_Original";mv "$name".ogg "_Original"; done
+
+========
+for file in *.wav; do name=$(echo $file | sed "s/\\.wav//g"); ffmpeg -acodec dts -i "$name".wav -vn -sn -ac 2 -acodec alac "$name".m4a; done
+mkdir "_Original"; 
+for file in *.wav; do name=$(echo $file | sed "s/\\.wav//g"); mv "$name".wav "_Original"; done
+
+
+for file in *.ape; do name=$(echo $file | sed s/\\.ape//g”); ffmpeg -i “$name”.ape "$name".flac; done
+
+for file in *.ape; do name=$(echo $file | sed "s/\\.ape//g"); ffmpeg -i "$name".ape "$name".flac; done
+
+echo $file | sed "s/\\.ape//g"
+
+====== Password ======
+
+www.pt80.net
+www.pt80.com
+bbs.besgold.com
+
+http://bbs.besgold.com/
+
+http://bbs.besgold.com
+
+http://bbs.besgold.com
+
+
+汪峰《峰狂呐喊 K2HD》解压密码：
+
+ 22-08-643-00
+
+22-08-643-00/A.J6
+
+7gxx
+
+xinshou
+
+张玮伽《情醉伽音》1解压密码：张玮伽《情醉伽音(HQCD)》CD1
+
+张玮伽《情醉伽音》1解压密码：张玮伽《情醉伽音(HQCD)》CD1
+
+
+张玮伽情醉伽音
+====
+
+for f in *.wav; do ffmpeg -i "$f" -acodec alac "${f%.wav}.m4a"; done
+
+
+ffmpeg -acodec dts -i "$name".wav -vn -sn -ac 2 -acodec alac "$name".m4a; mv "$name".wav "_Original"; done
+ffmpeg -acodec dts -i "01.时间都去哪儿了  陶辚竹.wav" -vn -sn -ac 2 -acodec alac 1.m4a; mv "$name".wav "_Original"; done
+
+
+mkdir "_Original"; for file in *.wav; do name=$(echo $file | sed "s/\\.wav//g"); ffmpeg -i "$name".wav -acodec alac "$name".m4a; mv "$name".wav "_Original"; done
+
+
+
+mkdir "_Original"; for file in *.dts; do name=$(echo $file | sed "s/\\.dts//g"); ffmpeg -acodec dts -i "$name".dts -vn -sn -ac 2 -acodec alac "$name".m4a; mv "$name".dts "_Original"; done
+
+
+
+- - - - 
+
+mkdir "_Original"; for file in *.wav; do name=$(echo $file | sed "s/\\.wav//g"); ffmpeg -acodec dts -i "$name".wav -vn -sn -ac 2 -acodec "$name"_.wav; mv "$name".wav "_Original"; done
+
+
+
+for file in *.wav; do name=$(echo $file | cut -f1 -d'.'); echo $name; done
+for file in *.wav; do name=$(echo $file | sed "s/\\.wav//g"); echo $name; ls "$name".wav;done
+
+
+
+
+name=`echo $filename | cut -f1 -d'.'`
+
+
+
+
+
+mkdir "_Original"; for file in *.wav; do name=$(echo $file | cut -f1 -d'.'); ffmpeg -acodec dts -i "$name".wav -vn -sn -ac 2 -acodec alac "$name".m4a; mv "$name".wav "_Original"; done
+
+
+====
+13 静静的夜晚 依雪.wav: No such file or directory
+13 静静的夜晚  依雪.wav
+
+
+mkdir "_Original"; for file in *.wav; do name=$(echo $file | sed "s/\\.wav//g"); ffmpeg -i "$name".wav -acodec alac "$name".m4a; mv "$name".wav "_Original"; done
+
+
+
+—----
+
+
+ffmpeg -i audio.ogg audio.wav
+
+ffmpeg -i "$name".ogg -acodec alac "$name".wav
+mv "$name".ogg "_Original"; done
+
+mkdir "_Original"; for file in *.ogg; do name=$(echo $file | sed "s/\\.ogg//g");ffmpeg -i "$name".ogg "$name".wav; ffmpeg -i "$name".wav -acodec alac "$name".m4a; mv "$name".wav "_Original";mv "$ name".ogg "_Original"; done
+
+
+mkdir "_Original"; for file in *.ogg; do name=$(echo $file | sed "s/\\.ogg//g");ffmpeg -i "$name".ogg "$name".wav; mv "$ name".ogg "_Original"; done
+
+
+
